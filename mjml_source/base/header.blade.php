@@ -1,0 +1,12 @@
+<mj-section css-class="header">
+  <mj-group>
+    <mj-column>
+      <mj-image align="left" width="150px" src="{{ asset($rootPath . '/emails/images/base/logo.png') }}"></mj-image>
+    </mj-column>
+    <mj-column>
+      <mj-text align="right" css-class="header-name">
+        CRYPTO TRADING <br /> SOLUTIONS MARKETPLACE
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
