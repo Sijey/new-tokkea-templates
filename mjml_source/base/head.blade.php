@@ -51,5 +51,16 @@
       line-height: 146% !important;
       color: #6D6D6D !important;
     }
+
+    .phishing-content {
+      margin-bottom: 10px !important;
+    }
+
+    .phishing-text div {
+      font-size: 14px !important;
+      line-height: 16px !important;
+      color: rgba(255, 255, 255, 0.5) !important;
+      text-align: right !important;
+    }
   </mj-style>
 </mj-head>
