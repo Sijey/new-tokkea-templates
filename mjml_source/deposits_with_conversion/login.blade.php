@@ -1,7 +1,7 @@
 <mjml>
-  <mj-include path="../base/head.blade.php" />
+  <mj-include path="../base/head.blade.mjml" />
   <mj-body background-color="#1E1F27" width="520px">
-    <mj-include path="../base/header.blade.php" />
+    <mj-include path="../base/header.blade.mjml" />
 
     <mj-wrapper css-class="content-wrap">
       <mj-section css-class="content">
@@ -24,13 +24,13 @@
                 If you didn't initiate this activity, please contact our support team at <a href="mailto:support@tokkea.exchange" style="color: #479D7E;">
                 support@tokkea.exchange
                 </a> or proceed to <a href="#" target="_blank" style="color: #479D7E;">tokkea/support</a><br /> <br /> <br />
-                <mj-include path="../base/message-footer.blade.php" />
               </mj-text>
+            <mj-include path="../base/message-footer.blade.mjml" />
           </mj-column>
         </mj-group>
       </mj-section>
     </mj-wrapper>
 
-    <mj-include path="../base/footer.blade.php" />
+    <mj-include path="../base/footer.blade.mjml" />
   </mj-body>
 </mjml>
