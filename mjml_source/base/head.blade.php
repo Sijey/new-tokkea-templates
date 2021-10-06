@@ -4,6 +4,10 @@
     <mj-all font-family="Arial" padding="0" box-sizing="border-box" font-family="Roboto, Arial" />
   </mj-attributes>
   <mj-style inline="inline">
+    a {
+      	text-decoration: none
+    }
+
     .header {
       box-sizing: border-box;
       padding: 34px 5px !important;

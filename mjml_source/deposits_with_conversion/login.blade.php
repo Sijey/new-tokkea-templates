@@ -1,8 +1,3 @@
-<?php
-/**
- * @var \App\Doctrine\Entity\DepositWithConversion $depositWithConversion
- */
-?>
 <mjml>
   <mj-include path="../base/head.blade.php" />
   <mj-body background-color="#1E1F27" width="520px">
@@ -26,12 +21,10 @@
                 Date: <span style="font-weight: 700">
                 2021-10-12 08:50:00
                 </span><br /> <br />
-                If you didn't initiate this activity, please contact our support team at <span style="color: #479D7E;">
+                If you didn't initiate this activity, please contact our support team at <a href="mailto:support@tokkea.exchange" style="color: #479D7E;">
                 support@tokkea.exchange
-                </span> or proceed to <span style="color: #479D7E;">tokkea/support</span><br /> <br /> <br />
-                Kind regards.<br />
-                <span style="color: #479D7E;">Tokkea Team</span><br /><br />
-                This is an automated confirmation email. Please do not reply.
+                </a> or proceed to <a href="#" target="_blank" style="color: #479D7E;">tokkea/support</a><br /> <br /> <br />
+                <mj-include path="../base/message-footer.blade.php" />
               </mj-text>
           </mj-column>
         </mj-group>
